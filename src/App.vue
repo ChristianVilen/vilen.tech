@@ -23,7 +23,7 @@ export default {
 <style>
 
 .header {
-	height: 100vh;
+	height: 110vh;
 }
 
 .content {
@@ -37,13 +37,13 @@ body {
 }
 
 body::-webkit-scrollbar-thumb {
-	background: #CBECE7;
+	background: #000000;
 	border-radius: 10px;
 	box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
 
 body::-webkit-scrollbar-track {
-	background: #F9C4C2;
+	background: #f5d9ef;
 }
 
 body::-webkit-scrollbar {

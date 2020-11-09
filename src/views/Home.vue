@@ -1,9 +1,11 @@
 <template>
+<div>
 	<div class="row">
 		<div id="about" class="col-sm">
 			<Skills/>
 		</div>
 	</div>
+</div>
 </template>
 
 <script>

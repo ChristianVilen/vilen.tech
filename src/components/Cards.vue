@@ -23,6 +23,11 @@ export default {
 <style scoped>
 .card-name {
 	margin-top: 10rem;
+  color: black;
+}
+
+.card-header {
+  color: black;
 }
 
 .card-svg {
@@ -38,8 +43,8 @@ export default {
 	padding: 1rem;
 
 	border-radius: 16px;
-	background: #b52222;
-	box-shadow: -1rem 0 3rem #000;
+	background: #d9e4dd;
+	box-shadow: -1rem 0 3rem #777676;
 
 	transition: .2s;
 }
