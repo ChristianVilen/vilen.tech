@@ -1,7 +1,7 @@
 <template>
 	<div class="row">
 		<div id="about" class="col-sm">
-			<Skills />
+			<Skills/>
 		</div>
 	</div>
 </template>
@@ -10,8 +10,7 @@
 import Skills from "@/components/Skills";
 
 export default {
-	components: {Skills,},
-	methods: {}
+	components: {Skills},
 };
 </script>
 
