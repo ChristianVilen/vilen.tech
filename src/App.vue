@@ -4,6 +4,7 @@
 			<Header/>
 		</div>
 		<div class="content">
+      <About />
 			<router-view/>
 		</div>
 	</div>
@@ -14,16 +15,17 @@
 <script>
 
 import Header from "@/components/Header";
+import About from "@/components/About";
 
 export default {
-	components: {Header}
+	components: {About, Header}
 }
 </script>
 
 <style>
 
 .header {
-	height: 110vh;
+	height: 100vh;
 }
 
 .content {
@@ -31,9 +33,11 @@ export default {
 }
 
 body {
-	background-image: url("./assets/Pastel4.png");
+	background-image: url("./assets/twintowers.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+  overflow-x: hidden;
+  background-color: #acabfb;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -51,12 +55,10 @@ body::-webkit-scrollbar {
 	height: 5px;
 }
 
-#app {
+* {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	padding: 15px;
 }
 
 </style>

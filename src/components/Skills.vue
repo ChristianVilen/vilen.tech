@@ -1,5 +1,5 @@
 <template>
-	<div class="row">
+	<div class="row card-container">
 		<div class="col-xs-12 col-md-6 col-lg-3">
 			<Card
 				class="card"
@@ -86,7 +86,7 @@
 import Card from "@/components/Cards";
 
 export default {
-	name: 'About',
+	name: 'Skills',
 	components: {Card},
 	data() {
 		return {
@@ -122,6 +122,10 @@ export default {
 <style scoped>
 .card {
 	color: white;
+}
+
+.card-container {
+  margin-top: 5rem;
 }
 
 .row {
