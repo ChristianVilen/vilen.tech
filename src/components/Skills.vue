@@ -1,6 +1,6 @@
 <template>
-	<div class="row card-container">
-		<div class="col-xs-12 col-md-6 col-lg-3">
+	<div id="skills" data-aos="zoom-in" data-aos-duration="1000" class="row card-container">
+		<div data-aos="flip-up" data-aos-delay="900" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Miscellaneous"
@@ -9,7 +9,7 @@
 				:svg="miscellaneous"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="200" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -19,7 +19,7 @@
 				:svg="agile"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="600" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -29,7 +29,7 @@
 				:svg="devops"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="400" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -39,7 +39,7 @@
 				:svg="backEnd"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="100" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -49,7 +49,7 @@
 				:svg="digitalMarketing"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="700" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -59,7 +59,7 @@
 				:svg="cloud"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="300" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 
 			<Card
 				class="card"
@@ -69,10 +69,10 @@
 				:svg="frontEnd"
 			/>
 		</div>
-		<div class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="500" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
 			<Card
 				class="card"
-				title="Frontend"
+				title="Soft Skills"
 				subtitle="ge"
 				text="hello text"
 				:svg="frontEnd"
@@ -134,5 +134,7 @@ export default {
 	margin-right: auto;
 }
 
-
+#skills {
+	padding-bottom: 15rem;
+}
 </style>

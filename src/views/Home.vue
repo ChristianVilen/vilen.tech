@@ -1,24 +1,36 @@
 <template>
-<div>
-	<div class="row">
-		<div id="about" class="col-sm">
-			<Skills/>
+	<main>
+		<div class="header">
+			<Header/>
 		</div>
-	</div>
-</div>
+		<div class="content">
+			<About/>
+			<Personality/>
+			<Skills />
+			<Contact />
+		</div>
+	</main>
 </template>
 
 <script>
 import Skills from "@/components/Skills";
+import Header from "@/components/Header";
+import About from "@/components/About";
+import Personality from "@/components/Personality";
+import Contact from "@/components/Contact";
 
 export default {
-	components: {Skills},
+	components: {Contact, Personality, About, Header, Skills},
 };
 </script>
 
 <style scoped>
-#about {
+.header {
+	height: 100vh;
+}
 
+.content {
+	height: 100vh;
 }
 
 </style>

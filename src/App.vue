@@ -1,12 +1,6 @@
 <template>
 	<div id="app">
-		<div class="header">
-			<Header/>
-		</div>
-		<div class="content">
-      <About />
-			<router-view/>
-		</div>
+		<router-view></router-view>
 	</div>
 </template>
 
@@ -14,30 +8,17 @@
 
 <script>
 
-import Header from "@/components/Header";
-import About from "@/components/About";
-
 export default {
-	components: {About, Header}
 }
 </script>
 
 <style>
-
-.header {
-	height: 100vh;
-}
-
-.content {
-	height: 100vh;
-}
-
 body {
 	background-image: url("./assets/twintowers.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-  overflow-x: hidden;
-  background-color: #acabfb;
+	overflow-x: hidden;
+	background-color: #000000;
 }
 
 body::-webkit-scrollbar-thumb {
