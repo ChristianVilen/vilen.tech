@@ -1,6 +1,6 @@
 <template>
 	<div id="skills" data-aos="zoom-in" data-aos-duration="1000" class="row card-container">
-		<div data-aos="flip-up" data-aos-delay="900" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="900" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Miscellaneous"
@@ -9,8 +9,7 @@
 				:svg="miscellaneous"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="200" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="200" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Agile"
@@ -19,8 +18,7 @@
 				:svg="agile"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="600" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="600" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Devops"
@@ -29,8 +27,7 @@
 				:svg="devops"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="400" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="400" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Backend"
@@ -39,8 +36,7 @@
 				:svg="backEnd"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="100" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="100" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Digital Marketing"
@@ -49,8 +45,7 @@
 				:svg="digitalMarketing"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="700" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="700" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Cloud"
@@ -59,8 +54,7 @@
 				:svg="cloud"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="300" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
-
+		<div data-aos="flip-up" data-aos-delay="300" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Frontend"
@@ -69,7 +63,7 @@
 				:svg="frontEnd"
 			/>
 		</div>
-		<div data-aos="flip-up" data-aos-delay="500" data-aos-duration="200" class="col-xs-12 col-md-6 col-lg-3">
+		<div data-aos="flip-up" data-aos-delay="500" data-aos-duration="200" class="card-container-inner col-xs-6 col-md-6 col-lg-3">
 			<Card
 				class="card"
 				title="Soft Skills"
@@ -122,16 +116,20 @@ export default {
 <style scoped>
 .card {
 	color: white;
+  text-align: center;
 }
 
 .card-container {
   margin-top: 5rem;
+  max-width: 80vw;
 }
 
-.row {
-	max-width: 80vw;
-	margin-left: auto;
-	margin-right: auto;
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    padding: 10px;
+    margin-left: 5px;
+  }
 }
 
 #skills {

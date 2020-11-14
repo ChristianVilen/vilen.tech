@@ -30,9 +30,6 @@ export default {
   color: black;
 }
 
-.card-svg {
-}
-
 .card {
 	display: flex;
 	position: relative;
@@ -41,12 +38,32 @@ export default {
 	width: 350px;
 	min-width: 150px;
 	padding: 1rem;
+  margin-left: auto;
 
 	border-radius: 16px;
 	background: #d9e4dd;
-	box-shadow: -1rem 0 3rem #777676;
+	box-shadow: -.5rem 0 3rem #777676;
 
 	transition: .2s;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: medium;
+  }
+  h3 {
+    font-size: medium;
+  }
+  p {
+    font-size: medium;
+  }
+  .card {
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    padding: 1rem;
+    margin-left: auto;
+  }
 }
 
 .card:focus-within ~ .card, .card:hover ~ .card {

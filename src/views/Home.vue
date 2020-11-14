@@ -20,7 +20,7 @@ import Personality from "@/components/Personality";
 import Contact from "@/components/Contact";
 
 export default {
-	components: {Contact, Personality, About, Header, Skills},
+    components: {Contact, Personality, About, Header, Skills},
 };
 </script>
 

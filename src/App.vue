@@ -14,11 +14,12 @@ export default {
 
 <style>
 body {
-	background-image: url("./assets/twintowers.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow-x: hidden;
-	background-color: #000000;
+    background-image: url("./assets/lighthouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+    background-color: #000000;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -37,7 +38,7 @@ body::-webkit-scrollbar {
 }
 
 * {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

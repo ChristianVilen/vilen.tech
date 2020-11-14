@@ -1,6 +1,10 @@
 <template>
 	<section id="contact">
-		<h2>Contact</h2>
+		<div class="row container">
+      <div class="col-xs-4"><i class="fab fa-linkedin-in"></i>LinkedIn</div>
+      <div class="col-xs-4">Github</div>
+      <div class="col-xs-4">Instagram</div>
+    </div>
 	</section>
 </template>
 
@@ -15,5 +19,11 @@ export default {
 	height: 100vh;
 	width: 100vw;
 	background-color: #679186;
+}
+
+.container {
+  padding-top: 15rem;
+  margin: auto;
+  width: 40vw;
 }
 </style>
