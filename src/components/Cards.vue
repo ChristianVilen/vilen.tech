@@ -1,10 +1,11 @@
 <template>
 	<div class="card">
 		<div class="card-header">
-			<h2 v-text="title"></h2>
-			<h3 v-text="subtitle"></h3>
-			<p v-text="text"></p>
-		</div>
+            <h2 v-text="title"></h2>
+            <p v-for="item in body" :key="item">
+                {{ item }}
+            </p>
+        </div>
 		<div class="card-name">
 			<div class="card-svg">
 				<div v-html="svg"></div>
@@ -15,15 +16,15 @@
 
 <script>
 export default {
-	name: 'Card',
-	props: ['title', 'text', 'subtitle', 'svg']
+    name: 'Card',
+    props: ['title', 'text', 'subtitle', 'svg', 'body']
 }
 </script>
 
 <style scoped>
 .card-name {
-	margin-top: 10rem;
-  color: black;
+    color: black;
+    margin-top: auto;
 }
 
 .card-header {
@@ -38,13 +39,13 @@ export default {
 	width: 350px;
 	min-width: 150px;
 	padding: 1rem;
-  margin-left: auto;
+    margin-left: auto;
 
-	border-radius: 16px;
-	background: #d9e4dd;
-	box-shadow: -.5rem 0 3rem #777676;
+    border-radius: 16px;
+    background: #d9e4dd;
+    box-shadow: -.5rem 0 3rem #777676;
 
-	transition: .2s;
+    transition: .2s;
 }
 
 @media screen and (max-width: 600px) {
