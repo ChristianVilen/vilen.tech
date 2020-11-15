@@ -1,43 +1,122 @@
 <template>
 	<div id="personality">
 		<div class="row inner">
-			<div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
-				<div class="row">
-					<div class="card-inner col-sm-8 col-xs-12">
-						<h2>Section 1</h2>
-						<p>Text</p>
-					</div>
-					<div class="col-sm-4"></div>
-				</div>
-			</div>
-			<div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
-				<div class="row">
-					<div class="col-sm-4"></div>
-					<div class="card-inner col-sm-8 col-xs-12">
-						<h2>Section 1</h2>
-						<p>Text</p>
-					</div>
-				</div>
-			</div>
-			<div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
-				<div class="row">
-					<div class="card-inner col-sm-8 col-xs-12">
-						<h2>Section 1</h2>
-						<p>Text</p>
-					</div>
-					<div class="col-sm-4"></div>
-				</div>
-			</div>
-			<div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
-				<div class="row">
-					<div class="col-sm-4"></div>
-					<div class="card-inner col-sm-8 col-xs-12">
-						<h2>Section 1</h2>
-						<p>Text</p>
-					</div>
-				</div>
-			</div>
-		</div>
+            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+                <div class="row">
+                    <div class="card-inner col-sm-8 col-xs-12">
+                        <h2>Creativity</h2>
+                        <ul class="list">
+                            <li>
+                                Adaptable
+                            </li>
+                            <li>
+                                Classical
+                            </li>
+                            <li>
+                                Focused
+                            </li>
+                            <li>
+                                Innovative
+                            </li>
+                            <li>
+                                Open to Experience
+                            </li>
+                            <li>
+                                Pragmatic
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="card-inner col-sm-8 col-xs-12">
+                        <h2>Thinking</h2>
+                        <ul class="list">
+                            <li>
+                                Intuitive
+                            </li>
+                            <li>
+                                Hands-on Learner
+                            </li>
+                            <li>
+                                Balanced Learner
+                            </li>
+                            <li>
+                                Analytical
+                            </li>
+                            <li>
+                                Agile
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+                <div class="row">
+                    <div class="card-inner col-sm-8 col-xs-12">
+                        <h2>Drive</h2>
+                        <ul class="list">
+                            <li>
+                                Achiever
+                            </li>
+                            <li>
+                                Confident
+                            </li>
+                            <li>
+                                Disciplined
+                            </li>
+                            <li>
+                                Modest
+                            </li>
+                            <li>
+                                Patient
+                            </li>
+                            <li>
+                                Relaxed
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="card-inner col-sm-8 col-xs-12">
+                        <h2>Connections</h2>
+                        <ul class="list">
+                            <li>
+                                Autonomous
+                            </li>
+                            <li>
+                                Balanced
+                            </li>
+                            <li>
+                                Diplomatic
+                            </li>
+                            <li>
+                                Direct
+                            </li>
+                            <li>
+                                Emotive
+                            </li>
+                            <li>
+                                Independent
+                            </li>
+                            <li>
+                                Sociable
+                            </li>
+                            <li>
+                                Supportive
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 </template>
 
@@ -51,17 +130,24 @@ export default {
 
 <style scoped>
 #personality {
-	width: 100%;
+    width: 100%;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
 }
 
 .inner {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card:nth-child(even) * {
-	text-align: right;
+    text-align: right;
+}
+.card:nth-child(odd) * {
 }
 
 .card-inner {

@@ -145,5 +145,7 @@ export default {
 
 #skills {
 	padding-bottom: 15rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 </style>
