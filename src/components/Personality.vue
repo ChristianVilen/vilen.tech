@@ -5,26 +5,33 @@
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Creativity</h2>
-                        <ul class="list">
-                            <li>
-                                Adaptable
-                            </li>
-                            <li>
-                                Classical
-                            </li>
-                            <li>
-                                Focused
-                            </li>
-                            <li>
-                                Innovative
-                            </li>
-                            <li>
-                                Open to Experience
-                            </li>
-                            <li>
-                                Pragmatic
-                            </li>
-                        </ul>
+                        <div class="row">
+                        <div class="col-xs-8">
+                            <ul class="list">
+                                <li>
+                                    Adaptable
+                                </li>
+                                <li>
+                                    Classical
+                                </li>
+                                <li>
+                                    Focused
+                                </li>
+                                <li>
+                                    Innovative
+                                </li>
+                                <li>
+                                    Open to Experience
+                                </li>
+                                <li>
+                                    Pragmatic
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-4">
+                            <h1>Icon goes here</h1>
+                        </div>
+                    </div>
                     </div>
                     <div class="col-sm-4"></div>
                 </div>
@@ -34,6 +41,12 @@
                     <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Thinking</h2>
+                        <div class="row">
+                        <div class="col-xs-4">
+                            <h1>Icon goes here</h1>
+                        </div>
+                        <div class="col-xs-8">
+
                         <ul class="list">
                             <li>
                                 Intuitive
@@ -51,6 +64,8 @@
                                 Agile
                             </li>
                         </ul>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,26 +73,33 @@
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Drive</h2>
-                        <ul class="list">
-                            <li>
-                                Achiever
-                            </li>
-                            <li>
-                                Confident
-                            </li>
-                            <li>
-                                Disciplined
-                            </li>
-                            <li>
-                                Modest
-                            </li>
-                            <li>
-                                Patient
-                            </li>
-                            <li>
-                                Relaxed
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <ul class="list">
+                                    <li>
+                                        Achiever
+                                    </li>
+                                    <li>
+                                        Confident
+                                    </li>
+                                    <li>
+                                        Disciplined
+                                    </li>
+                                    <li>
+                                        Modest
+                                    </li>
+                                    <li>
+                                        Patient
+                                    </li>
+                                    <li>
+                                        Relaxed
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4">
+                                <h1>Icon goes here</h1>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-4"></div>
                 </div>
@@ -87,32 +109,39 @@
                     <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Connections</h2>
-                        <ul class="list">
-                            <li>
-                                Autonomous
-                            </li>
-                            <li>
-                                Balanced
-                            </li>
-                            <li>
-                                Diplomatic
-                            </li>
-                            <li>
-                                Direct
-                            </li>
-                            <li>
-                                Emotive
-                            </li>
-                            <li>
-                                Independent
-                            </li>
-                            <li>
-                                Sociable
-                            </li>
-                            <li>
-                                Supportive
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <h1>Icon goes here</h1>
+                            </div>
+                            <div class="col-xs-8">
+                                <ul class="list">
+                                    <li>
+                                        Autonomous
+                                    </li>
+                                    <li>
+                                        Balanced
+                                    </li>
+                                    <li>
+                                        Diplomatic
+                                    </li>
+                                    <li>
+                                        Direct
+                                    </li>
+                                    <li>
+                                        Emotive
+                                    </li>
+                                    <li>
+                                        Independent
+                                    </li>
+                                    <li>
+                                        Sociable
+                                    </li>
+                                    <li>
+                                        Supportive
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,7 +150,6 @@
 </template>
 
 <script>
-
 export default {
 	name: 'Personality',
 	components: { },
@@ -131,6 +159,15 @@ export default {
 <style scoped>
 #personality {
     width: 100%;
+}
+
+h2 {
+    color: green;
+}
+
+li {
+    color: green;
+    font-size: larger;
 }
 
 .list {
