@@ -14,11 +14,14 @@ export default {
 
 <style>
 footer {
-    color: white;
-    background-color: #003459;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-top: 50px;
+	color: #aaa;
+	position: sticky;
+	right: 40px;
+	top: 16px;
+	width: 98%;
+	display: block;
+	text-align: right;
+	padding-right: 40px;
+	margin-top: 1px;
 }
 </style>
