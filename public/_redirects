@@ -1,0 +1,3 @@
+http://vilen.tech/* https://vilen.tech/:splat 301!
+https://vilen.tech/* https://vilen.tech/:splat 301!
+https://vilen.tech/* / 200

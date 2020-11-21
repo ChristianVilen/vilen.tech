@@ -1,19 +1,16 @@
 <template>
     <footer>
         <div class="row footer-content">
-            <div class="col-xs-4">
-                ⎨Privacy Policy⎬
+            <div class="col-xs-12 col-md-4">
+                <p><a href="/privacy">⎨Privacy Policy⎬</a></p>
             </div>
-            <div class="col-xs-4" @click="openCookiePolicy()">
-                ⎨Cookie Policy⎬
+
+            <div class="col-xs-12 col-md-4">
+                <p v-html="'⎨© Christian Vilen ' + year + '⎬'" ></p>
             </div>
-            <div class="col-xs-4">
-                ⎨Cookie Preferences⎬
-            </div>
-        </div>
-        <div class="row copyright">
-            <div class="col-xs-12">
-                ⎨© Christian Vilen 2020⎬
+
+            <div class="col-xs-12 col-md-4">
+                <p><a href="/cookies">⎨Cookie Policy⎬</a></p>
             </div>
         </div>
     </footer>
@@ -24,30 +21,43 @@
 
 export default {
     name: 'Footer',
-    methods: {
-        openCookiePolicy() {
-            this.$router.push('/cookiepolicy')
-        },
-    }
+    data() {
+        return {
+            year: ''
+        }
+    },
+    mounted() {
+        const date = new Date();
+        this.year = date.getFullYear();
+    },
 }
 </script>
 
 <style>
 footer {
-    background-color: var(--black-bg);
+    background-color: var(--second-bg);
+    width: 100vw;
+    position: absolute;
 }
 
 .footer-content {
     text-align: center;
     color: var(--text-light);
-    font-size: 1.2rem;
     padding: 10px;
 }
 
-.copyright {
-    text-align: center;
+a {
     color: var(--text-light);
-    padding-bottom: 5px;
+    text-decoration: none;
+}
 
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        padding: 0;
+    }
 }
 </style>

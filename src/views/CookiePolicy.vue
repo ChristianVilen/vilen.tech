@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div>
         <h1>Cookie Policy for vilen.tech</h1>
 
         <p>This is the Cookie Policy for vilen.tech, accessible from vilen.tech</p>
@@ -90,5 +90,7 @@ export default {
 </script>
 
 <style scoped>
-
+a {
+    color: red;
+}
 </style>
