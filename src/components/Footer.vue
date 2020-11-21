@@ -35,7 +35,9 @@ export default {
 
 <style>
 footer {
-    background-color: var(--black-bg);
+    background-color: var(--second-bg);
+    width: 100vw;
+    position: absolute;
 }
 
 .footer-content {
