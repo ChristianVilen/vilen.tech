@@ -14,6 +14,7 @@
             <Skills/>
             <Contact/>
             <Footer/>
+            <cookie-law v-on:accept="cookiesAccepted()" theme="blood-orange"/>
         </div>
     </main>
 </template>
@@ -25,9 +26,17 @@ import About from "@/components/About";
 import Personality from "@/components/Personality";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CookieLaw from 'vue-cookie-law'
+
 
 export default {
-    components: {Footer, Contact, Personality, About, Header, Skills},
+    name: 'Home',
+    components: {Footer, Contact, Personality, About, Header, Skills, CookieLaw},
+    methods: {
+        cookiesAccepted() {
+            console.table('Activate GA')
+        }
+    }
 };
 </script>
 

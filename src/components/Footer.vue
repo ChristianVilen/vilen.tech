@@ -1,13 +1,13 @@
 <template>
     <footer>
         <div class="row footer-content">
-            <div class="col-xs-4 ">
+            <div class="col-xs-4">
                 ⎨Privacy Policy⎬
             </div>
-            <div class="col-xs-4 ">
+            <div class="col-xs-4" @click="openCookiePolicy()">
                 ⎨Cookie Policy⎬
             </div>
-            <div class="col-xs-4 ">
+            <div class="col-xs-4">
                 ⎨Cookie Preferences⎬
             </div>
         </div>
@@ -21,8 +21,14 @@
 
 
 <script>
+
 export default {
     name: 'Footer',
+    methods: {
+        openCookiePolicy() {
+            this.$router.push('/cookiepolicy')
+        },
+    }
 }
 </script>
 
