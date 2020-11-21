@@ -8,7 +8,7 @@
 				<font-awesome-icon class="icon" id="github" :icon="['fab', 'github']" />
 			</div>
             <div class="col-xs-4">
-				<a href="mailto:c.vilen@outlook.com"><font-awesome-icon class="icon" id="instagram" icon="envelope" /></a>
+				<a href="mailto:c.vilen@outlook.com"><font-awesome-icon class="icon" id="mail" icon="envelope" /></a>
 			</div>
         </div>
     </section>
@@ -21,16 +21,11 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-    padding-top: 10rem;
-    text-align: center;
-    color: white;
-    font-size: 4rem;
-}
+
 #contact {
 	height: 60vh;
-	width: 100vw;
-	background-color: #679186;
+    width: 100vw;
+	background-color: var(--second-bg);
 	display: flex;
 	align-items: center;
 }
@@ -47,10 +42,10 @@ h1 {
 }
 
 #linkedin {
-	color: #0e76a8;
+	color: var(--linkedin);
 }
 
-#instagram {
-	color: lightpink;
+#mail {
+	color: var(--mail);
 }
 </style>

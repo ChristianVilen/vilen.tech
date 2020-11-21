@@ -49,10 +49,10 @@ export default {
 }
 
 .section-title {
-    font-size: 7rem;
+    font-size: 5rem;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: var(--text-light);
 }
 
 h1 {

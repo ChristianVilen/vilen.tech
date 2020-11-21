@@ -1,27 +1,47 @@
 <template>
-	<footer>
-		<h1>Footer</h1>
-		<p></p>
-	</footer>
+    <footer>
+        <div class="row footer-content">
+            <div class="col-xs-4 ">
+                ⎨Privacy Policy⎬
+            </div>
+            <div class="col-xs-4 ">
+                ⎨Cookie Policy⎬
+            </div>
+            <div class="col-xs-4 ">
+                ⎨Cookie Preferences⎬
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-xs-12">
+                ⎨© Christian Vilen 2020⎬
+            </div>
+        </div>
+    </footer>
 </template>
 
 
 <script>
 export default {
-	name: 'Footer',
+    name: 'Footer',
 }
 </script>
 
 <style>
 footer {
-	color: #aaa;
-	position: sticky;
-	right: 40px;
-	top: 16px;
-	width: 98%;
-	display: block;
-	text-align: right;
-	padding-right: 40px;
-	margin-top: 1px;
+    background-color: var(--black-bg);
+}
+
+.footer-content {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: var(--text-light);
+    padding-bottom: 5px;
+
 }
 </style>

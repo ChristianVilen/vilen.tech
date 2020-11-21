@@ -1,37 +1,37 @@
 <template>
-	<div id="personality">
-		<div class="row inner">
+    <div id="personality">
+        <div class="row inner">
             <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Creativity</h2>
                         <div class="row">
-                        <div class="col-xs-8">
-                            <ul class="list">
-                                <li>
-                                    Adaptable
-                                </li>
-                                <li>
-                                    Classical
-                                </li>
-                                <li>
-                                    Focused
-                                </li>
-                                <li>
-                                    Innovative
-                                </li>
-                                <li>
-                                    Open to Experience
-                                </li>
-                                <li>
-                                    Pragmatic
-                                </li>
-                            </ul>
+                            <div class="col-xs-8">
+                                <ul class="list">
+                                    <li>
+                                        Adaptable
+                                    </li>
+                                    <li>
+                                        Classical
+                                    </li>
+                                    <li>
+                                        Focused
+                                    </li>
+                                    <li>
+                                        Innovative
+                                    </li>
+                                    <li>
+                                        Open to Experience
+                                    </li>
+                                    <li>
+                                        Pragmatic
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4 emoji">
+                                <div>🧑‍🎨</div>
+                            </div>
                         </div>
-                        <div class="col-xs-4">
-                            <h1>Icon goes here</h1>
-                        </div>
-                    </div>
                     </div>
                     <div class="col-sm-4"></div>
                 </div>
@@ -42,29 +42,29 @@
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Thinking</h2>
                         <div class="row">
-                        <div class="col-xs-4">
-                            <h1>Icon goes here</h1>
-                        </div>
-                        <div class="col-xs-8">
+                            <div class="col-xs-4 emoji">
+                                <div>🤔</div>
+                            </div>
+                            <div class="col-xs-8">
 
-                        <ul class="list">
-                            <li>
-                                Intuitive
-                            </li>
-                            <li>
-                                Hands-on Learner
-                            </li>
-                            <li>
-                                Balanced Learner
-                            </li>
-                            <li>
-                                Analytical
-                            </li>
-                            <li>
-                                Agile
-                            </li>
-                        </ul>
-                        </div>
+                                <ul class="list">
+                                    <li>
+                                        Intuitive
+                                    </li>
+                                    <li>
+                                        Hands-on Learner
+                                    </li>
+                                    <li>
+                                        Balanced Learner
+                                    </li>
+                                    <li>
+                                        Analytical
+                                    </li>
+                                    <li>
+                                        Agile
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,8 +96,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-xs-4">
-                                <h1>Icon goes here</h1>
+                            <div class="col-xs-4 emoji">
+                                <div>🏎</div>
                             </div>
                         </div>
                     </div>
@@ -110,8 +110,8 @@
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Connections</h2>
                         <div class="row">
-                            <div class="col-xs-4">
-                                <h1>Icon goes here</h1>
+                            <div class="col-xs-4 emoji">
+                                <div>🙋‍♂️</div>
                             </div>
                             <div class="col-xs-8">
                                 <ul class="list">
@@ -146,13 +146,13 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </template>
 
 <script>
 export default {
-	name: 'Personality',
-	components: { },
+    name: 'Personality',
+    components: {},
 }
 </script>
 
@@ -162,11 +162,13 @@ export default {
 }
 
 h2 {
-    color: green;
+    color: var(--text-black);
+    text-decoration: underline;
+    margin-bottom: 0;
 }
 
 li {
-    color: green;
+    color: var(--linkedin);
     font-size: larger;
 }
 
@@ -181,18 +183,31 @@ li {
     margin-right: auto;
 }
 
+.emoji {
+    font-size: 6rem;
+}
+
 .card:nth-child(even) * {
     text-align: right;
 }
+
 .card:nth-child(odd) * {
 }
 
+.card-inner:nth-child(even) {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 1) 80%);
+}
+
+.card-inner:nth-child(odd) {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 1) 80%);
+}
+
 .card-inner {
-	height: 40vh;
-	background-color: #fff;
-	border-radius: 25px;
-	padding: 50px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+    height: 20rem;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 </style>
