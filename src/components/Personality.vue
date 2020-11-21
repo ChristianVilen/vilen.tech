@@ -145,6 +145,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row blob2">
+                <svg style="width: 100%; z-index: -1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#F2F4F8" d="M34.7,-58.1C46.3,-53.3,58.1,-46.8,63.6,-36.9C69,-26.9,68.1,-13.4,70.1,1.1C72.1,15.7,76.9,31.5,69,37.2C61.1,42.9,40.4,38.6,26.8,39.9C13.2,41.2,6.6,48,-3,53.2C-12.5,58.3,-25,61.6,-33.9,57.6C-42.9,53.6,-48.2,42.3,-51.8,31.5C-55.3,20.6,-56.9,10.3,-59.8,-1.7C-62.7,-13.7,-66.8,-27.3,-61.7,-35.4C-56.6,-43.5,-42.3,-45.9,-30.5,-50.6C-18.6,-55.2,-9.3,-62,1.1,-63.9C11.5,-65.8,23,-62.8,34.7,-58.1Z" transform="translate(100 100)" />
+                </svg>
+            </div>
             <div class="row banner">
                 <div class="col-xs-12">
                     <p>Personality test done at <a href="https://www.wingfinder.com/">Red Bull Wingfinder</a></p>
@@ -162,6 +167,13 @@ export default {
 </script>
 
 <style scoped>
+
+.blob2 {
+    margin-top: 40rem;
+    width: 100%;
+    position: absolute;
+}
+
 .banner {
     margin-left: auto;
 }
