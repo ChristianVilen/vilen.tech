@@ -6,7 +6,7 @@
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Creativity</h2>
                         <div class="row">
-                            <div class="col-xs-8">
+                            <div class="col-xs-12 col-md-8">
                                 <ul class="list">
                                     <li>
                                         Adaptable
@@ -45,7 +45,7 @@
                             <div class="col-xs-4 emoji">
                                 <div>🤔</div>
                             </div>
-                            <div class="col-xs-8">
+                            <div class="col-xs-12 col-md-8">
 
                                 <ul class="list">
                                     <li>
@@ -74,7 +74,7 @@
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Drive</h2>
                         <div class="row">
-                            <div class="col-xs-8">
+                            <div class="col-xs-12 col-md-8">
                                 <ul class="list">
                                     <li>
                                         Achiever
@@ -113,7 +113,7 @@
                             <div class="col-xs-4 emoji">
                                 <div>🙋‍♂️</div>
                             </div>
-                            <div class="col-xs-8">
+                            <div class="col-xs-12 col-md-8">
                                 <ul class="list">
                                     <li>
                                         Autonomous
@@ -145,6 +145,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row banner">
+                <div class="col-xs-12">
+                    <p>Personality test done at <a href="https://www.wingfinder.com/">Red Bull Wingfinder</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -157,6 +162,14 @@ export default {
 </script>
 
 <style scoped>
+.banner {
+    margin-left: auto;
+}
+
+a {
+    color: red;
+}
+
 #personality {
     width: 100%;
 }
@@ -210,4 +223,30 @@ li {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .inner {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-inner {
+        height: 25rem;
+        padding: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .emoji {
+        font-size: 5rem;
+    }
+
+    .banner {
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 </style>

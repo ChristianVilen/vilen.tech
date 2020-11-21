@@ -114,7 +114,7 @@ h1 {
     .subtitle {
         opacity: 1;
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 4vw;
 
         color: #2b2b2b;
         animation-name: fadeInOpacity;

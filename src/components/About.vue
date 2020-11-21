@@ -51,19 +51,22 @@ export default {
     margin: 0 auto;
     text-align: center;
     color: var(--text-light);
-}
-
-h1 {
     -webkit-text-stroke: 2px black;
 }
 
 @media screen and (max-width: 600px) {
+    .section-title {
+        font-size: 2rem;
+        -webkit-text-stroke: 1px black;
+    }
+
     .card {
         height: 34rem
     }
 
     .content {
         font-size: 11px;
+        margin-top: 0;
     }
 }
 </style>
