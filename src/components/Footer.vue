@@ -35,19 +35,18 @@ export default {
 
 <style>
 footer {
-    background-color: var(--second-bg);
     width: 100vw;
     position: absolute;
 }
 
 .footer-content {
     text-align: center;
-    color: var(--text-light);
+    color: var(--text-black);
     padding: 10px;
 }
 
 a {
-    color: var(--text-light);
+    color: var(--text-black);
     text-decoration: none;
 }
 

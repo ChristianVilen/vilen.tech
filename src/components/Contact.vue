@@ -35,7 +35,6 @@ a #github {
 #contact {
 	height: 60vh;
     width: 100vw;
-	background-color: var(--second-bg);
 	display: flex;
 	align-items: center;
 }

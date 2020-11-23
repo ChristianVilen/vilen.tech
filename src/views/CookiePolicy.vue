@@ -75,7 +75,7 @@
             contact methods:</p>
 
         <ul>
-            <li>Email: c.vilen@outlook.com</li>
+            <li>Email: c.vilen(at)outlook.com</li>
 
         </ul>
 
