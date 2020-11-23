@@ -9,13 +9,13 @@
                 <h3>I'm a highly motivated software developer who is getting his footing the industry. <br><br>
                     With my experience in many different projects and a diverse job description, I am able to
                     quickly learn and
-                    adapt to new challenges and become a jack of all trades. May it be front- and backend
+                    adapt to new challenges and become a jack of all trades. May it be front/backend
                     development, devops,
-                    cloud technologies or digital marketing. <br><br>
+                    cloud technologies, or digital marketing. <br><br>
                     New challenges attract me and lead to my personal professional growth. I am able to work well
                     both in agile
                     team environment and independently. <br><br>
-                    On my free time I enjoy diversity of sports, such as skiing, jogging, gym, frisbee golf and
+                    On my free time I enjoy a diversity of sports, such as skiing, jogging, gym, frisbee golf and
                     motorsports.
                 </h3>
             </div>
