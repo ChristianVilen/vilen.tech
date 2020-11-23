@@ -36,6 +36,7 @@ export default {
 <style>
 footer {
     width: 100vw;
+	overflow-x: hidden;
     position: absolute;
 }
 
@@ -43,6 +44,12 @@ footer {
     text-align: center;
     color: var(--text-black);
     padding: 10px;
+}
+
+p {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
