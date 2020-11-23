@@ -6,7 +6,7 @@
             </svg>
         </div>
         <div class="row inner">
-            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+            <div data-aos-duration="1250" data-aos="slide-right" class="col-xs-12">
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Creativity</h2>
@@ -41,14 +41,14 @@
                     <div class="col-sm-4"></div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+            <div data-aos-duration="1250" data-aos="slide-left" class="col-xs-12">
                 <div class="row">
                     <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Thinking</h2>
                         <div class="row">
                             <div class="col-xs-4 emoji">
-                                <div>✶</div>
+                                <div>💡</div>
                             </div>
                             <div class="col-xs-12 col-md-8">
 
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+            <div data-aos-duration="1250" data-aos="slide-right" class="col-xs-12">
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Drive</h2>
@@ -109,7 +109,7 @@
                     <div class="col-sm-4"></div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+            <div data-aos-duration="1250" data-aos="slide-left" class="col-xs-12">
                 <div class="row">
                     <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
@@ -166,10 +166,16 @@ export default {
 </script>
 
 <style scoped>
+#personality {
+	overflow-x: hidden;
+}
 
 .blob2 {
     margin-top: 15rem;
     height: 100%;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
     position: absolute;
 }
 

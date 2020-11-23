@@ -14,10 +14,6 @@ export default {
 </script>
 
 <style>
-body {
-    overflow-x: hidden;
-}
-
 body::-webkit-scrollbar-thumb {
 	background: var(--black-bg);
 	border-radius: 10px;

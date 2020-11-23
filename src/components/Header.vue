@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="header">
         <div class="blob">
             <svg style="width: 100vw; z-index: -1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#BAE6FF"
@@ -14,7 +14,7 @@
                       transform="translate(100 100)"/>
             </svg>
         </div>
-        <div class="container">
+        <header>
             <div class="row">
                 <div class="col-xs-12 col-md-12 title">
                     <h1 id="title">Christian Vilen</h1>
@@ -26,9 +26,8 @@
                     <blockquote>Writing bad code is prerequisite to writing good code</blockquote>
                 </div>
             </div>
-        </div>
-    </div>
-
+        </header>
+	</div>
 </template>
 
 <script>
@@ -39,12 +38,23 @@ export default {
 
 <style scoped>
 
+#header {
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+.row {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 .blob2 {
     position: absolute;
     margin-top: 40rem;
     z-index: -1;
     top: 0;
     left: 0;
+	max-width: 100%;
 }
 
 blockquote {
@@ -55,7 +65,7 @@ blockquote {
 }
 
 blockquote:before {
-    color: #ccc;
+    color: #949393;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -70,6 +80,9 @@ blockquote p {
 h1 {
     padding: 0;
     margin: 0;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .title {
@@ -82,7 +95,7 @@ h1 {
     padding-bottom: 5rem;
 }
 
-.container {
+header {
     margin-top: 10rem;
     width: 100%;
     height: 20%;
@@ -106,7 +119,7 @@ h1 {
 @media screen and (max-width: 600px) {
     .title {
         text-align: center;
-        font-size: 10vw;
+        font-size: 8vw;
         color: black;
     }
 
@@ -114,9 +127,9 @@ h1 {
         padding-bottom: 5rem;
     }
 
-    .container {
+    header {
         margin-top: 10rem;
-        width: 100%;
+		width: 100%;
         height: 20%;
         position: absolute;
         top: 0;

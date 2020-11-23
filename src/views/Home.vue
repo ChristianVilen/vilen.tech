@@ -39,6 +39,8 @@ export default {
 
 .header {
     height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 .content {
