@@ -6,7 +6,7 @@
             <div class="content">
                 <h1 class="section-title">About me</h1>
                 <h2>Full Stack Software Developer at PHZ Full Stack</h2>
-                <h3>I'm a highly motivated software developer who is getting his footing the industry. <br><br>
+                <p>I'm a highly motivated software developer who is getting his footing the industry. <br><br>
                     With my experience in many different projects and a diverse job description, I am able to
                     quickly learn and
                     adapt to new challenges and become a jack of all trades. May it be front/backend
@@ -17,7 +17,7 @@
                     team environment and independently. <br><br>
                     On my free time I enjoy a diversity of sports, such as skiing, jogging, gym, frisbee golf and
                     motorsports.
-                </h3>
+                </p>
             </div>
         </div>
         <div class="col-xs-1 col-md-2 col-lg-3">
@@ -35,15 +35,18 @@ export default {
 
 .card {
     height: 40rem;
-    border-radius: 70px;
-    background-color: rgba(255, 255, 255, 0.73);
-    box-shadow: -.1rem 0 3rem #777676;
+    border-radius: 20px;
+    background: #954141;
+    box-shadow:  -12px -12px 8px #3c1a1a,
+    12px 12px 8px #ee6868;
 }
 
 .content {
-    margin-top: 10%;
+    margin-top: 5px;
     padding-left: 50px;
     padding-right: 50px;
+    color: white;
+    font-size: 21px;
 }
 
 .section-title {
@@ -51,7 +54,6 @@ export default {
     margin: 0 auto;
     text-align: center;
     color: var(--text-light);
-    -webkit-text-stroke: 2px black;
 }
 
 @media screen and (max-width: 600px) {
@@ -64,8 +66,13 @@ export default {
         height: 34rem
     }
 
-    .content {
-        font-size: 11px;
+    .content h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .content p{
+        font-size: 14px;
         margin-top: 0;
     }
 }

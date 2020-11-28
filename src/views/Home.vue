@@ -43,8 +43,4 @@ export default {
 	overflow-x: hidden;
 }
 
-.content {
-    height: 100vh;
-}
-
 </style>

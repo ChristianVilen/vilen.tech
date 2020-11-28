@@ -35,7 +35,7 @@ export default {
 
 <style>
 footer {
-    width: 100vw;
+    width: 100%;
 	overflow-x: hidden;
     position: absolute;
 }

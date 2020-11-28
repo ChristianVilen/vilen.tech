@@ -1,12 +1,14 @@
 <template>
     <div id="personality">
         <div class="blob-dark-blue">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#305f72" d="M34.7,-58.1C46.3,-53.3,58.1,-46.8,63.6,-36.9C69,-26.9,68.1,-13.4,70.1,1.1C72.1,15.7,76.9,31.5,69,37.2C61.1,42.9,40.4,38.6,26.8,39.9C13.2,41.2,6.6,48,-3,53.2C-12.5,58.3,-25,61.6,-33.9,57.6C-42.9,53.6,-48.2,42.3,-51.8,31.5C-55.3,20.6,-56.9,10.3,-59.8,-1.7C-62.7,-13.7,-66.8,-27.3,-61.7,-35.4C-56.6,-43.5,-42.3,-45.9,-30.5,-50.6C-18.6,-55.2,-9.3,-62,1.1,-63.9C11.5,-65.8,23,-62.8,34.7,-58.1Z" transform="translate(100 100)" />
+            <svg viewBox="18 30 150 180" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#305f72"
+                      d="M34.7,-58.1C46.3,-53.3,58.1,-46.8,63.6,-36.9C69,-26.9,68.1,-13.4,70.1,1.1C72.1,15.7,76.9,31.5,69,37.2C61.1,42.9,40.4,38.6,26.8,39.9C13.2,41.2,6.6,48,-3,53.2C-12.5,58.3,-25,61.6,-33.9,57.6C-42.9,53.6,-48.2,42.3,-51.8,31.5C-55.3,20.6,-56.9,10.3,-59.8,-1.7C-62.7,-13.7,-66.8,-27.3,-61.7,-35.4C-56.6,-43.5,-42.3,-45.9,-30.5,-50.6C-18.6,-55.2,-9.3,-62,1.1,-63.9C11.5,-65.8,23,-62.8,34.7,-58.1Z"
+                      transform="translate(100 100)"/>
             </svg>
         </div>
         <div class="row inner">
-            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+            <div class="card col-sm-6 col-xs-12">
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Creativity</h2>
@@ -41,9 +43,8 @@
                     <div class="col-sm-4"></div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+            <div class="card col-sm-6 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Thinking</h2>
                         <div class="row">
@@ -74,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-right" class="card col-sm-12 col-xs-6">
+            <div class="card col-sm-6 col-xs-12">
                 <div class="row">
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Drive</h2>
@@ -109,9 +110,8 @@
                     <div class="col-sm-4"></div>
                 </div>
             </div>
-            <div data-aos-duration="1250" data-aos="slide-left" class="card col-sm-12 col-xs-6">
+            <div class="card col-sm-6 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-4"></div>
                     <div class="card-inner col-sm-8 col-xs-12">
                         <h2>Connections</h2>
                         <div class="row">
@@ -168,21 +168,26 @@ export default {
 <style scoped>
 
 .blob-dark-blue svg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	margin-top: 175rem;
-	width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 175rem;
+    width: 100%;
+    height: 100%;
 }
 
 .banner {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 a {
-    color: red;
+    color: #070000;
+}
+
+a:hover {
+    color: blue;
 }
 
 #personality {
@@ -206,7 +211,7 @@ li {
 }
 
 .inner {
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -216,32 +221,35 @@ li {
 }
 
 .card:nth-child(even) * {
-    text-align: right;
 }
 
 .card:nth-child(odd) * {
 }
 
 .card-inner:nth-child(even) {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 1) 80%);
+    border-radius: 0px;
+    background: #4a4a4a;
+    box-shadow: 9px 9px 0px #333333,
+    -9px -9px 0px #616161;
 }
 
 .card-inner:nth-child(odd) {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 1) 80%);
+    border-radius: 0px;
+    background: #83a1a5;
+    box-shadow: 9px 9px 0px #5a6f72,
+    -9px -9px 0px #acd3d8;
 }
 
 .card-inner {
     height: 20rem;
-    padding: 50px;
+    padding: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 @media screen and (max-width: 600px) {
     .inner {
-        width: 100%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -250,7 +258,7 @@ li {
         height: 25rem;
         padding: 50px;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 5px;
     }
 
     .emoji {
@@ -261,6 +269,21 @@ li {
         margin-top: 1.5rem;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .blob-dark-blue {
+        height: 100%;
+        width: 100%;
+    }
+
+    .blob-dark-blue svg {
+        position: absolute;
+        z-index: -1;
+        margin-top: 190rem;
     }
 }
 

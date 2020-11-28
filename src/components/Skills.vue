@@ -143,13 +143,13 @@ export default {
 
     .card-container {
         margin-top: 2rem;
-        max-width: 100vw;
+        max-width: 80vw;
     }
 }
 
 #skills {
     padding-bottom: 5rem;
     margin-right: auto;
-    margin-left: auto;
+    width: 100vw;
 }
 </style>

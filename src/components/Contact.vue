@@ -33,10 +33,6 @@ a #github {
 }
 
 #contact {
-	height: 60vh;
-    width: 100vw;
-	display: flex;
-	align-items: center;
 }
 
 #icons {
