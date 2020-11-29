@@ -48,6 +48,7 @@ p {
     min-width: 150px;
     padding: 1rem;
     margin-left: auto;
+    margin-right: auto;
 
     border-radius: 16px;
     background: #d9e4dd;
@@ -68,14 +69,14 @@ p {
 
     p {
         font-size: 10px;
-        margin: 1px;
+        margin-top: 1px;
         padding-bottom: 2px;
     }
 
     .card {
-        height: 150px;
-        width: 150px;
-        min-width: 150px;
+        height: 215px;
+        width: 105px;
+        min-width: 100px;
         margin-left: auto;
     }
 

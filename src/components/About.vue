@@ -48,8 +48,8 @@ export default {
     margin-top: 5px;
     padding-left: 50px;
     padding-right: 50px;
-    color: #FFFF7E;
-    font-size: 18px;
+    color: white;
+    font-size: 17px;
 }
 
 .section-title {
@@ -66,6 +66,12 @@ export default {
 
     .card {
         height: 34rem
+    }
+
+    .content {
+        margin-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .content h2 {

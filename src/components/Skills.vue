@@ -138,7 +138,8 @@ export default {
 
 @media screen and (max-width: 600px) {
     .card-container {
-        margin-left: 5px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-container {
