@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

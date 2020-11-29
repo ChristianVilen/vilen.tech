@@ -22,6 +22,14 @@ export default {
 </script>
 
 <style scoped>
+
+h2 {
+    font-family: Hack,serif;
+}
+p {
+    font-family: Hack,serif;
+}
+
 .card-name {
     color: black;
     margin-top: auto;
