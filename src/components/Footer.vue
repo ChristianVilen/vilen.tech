@@ -1,21 +1,28 @@
 <template>
     <footer>
         <div class="row footer-content">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-3">
                 <p><a href="/privacy">⎨Privacy Policy⎬</a></p>
             </div>
 
-            <div class="col-xs-12 col-md-4">
-                <p v-html="'⎨© Christian Vilen ' + year + '⎬'" ></p>
+            <div class="col-xs-12 col-md-3">
+                <p v-html="'⎨© Christian Vilen ' + year + '⎬'"></p>
             </div>
 
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-3">
                 <p><a href="/cookies">⎨Cookie Policy⎬</a></p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <p><a @click="$emit('openConsentBanner')">⎨Cookie Preferences⎬</a>
+                </p>
             </div>
         </div>
         <div class="custom-shape-divider-bottom-1606642358">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                 preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
             </svg>
         </div>
     </footer>
@@ -62,7 +69,7 @@ export default {
 
 footer {
     width: 100%;
-	overflow-x: hidden;
+    overflow-x: hidden;
     position: absolute;
 }
 
@@ -73,9 +80,9 @@ footer {
 }
 
 p {
-	max-width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -83,6 +90,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+    color: #7e7e7e;
+}
 @media screen and (max-width: 600px) {
     p {
         font-size: 15px;

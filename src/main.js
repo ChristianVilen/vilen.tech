@@ -18,6 +18,28 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(fas)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+import CookieLaw from 'vue-cookie-law'
+Vue.component('cookie-law', CookieLaw)
+Vue.use(CookieLaw)
+
+// Vue (Google) Analytics
+import VueAnalytics from 'vue-analytics';
+Vue.use(VueAnalytics, {
+  id: 'G-ED2RYWLWJ4',
+  disabled: () => {
+    const areCookiesDisabled = String(localStorage.getItem(CookieLaw.props.storageName.default))
+    switch (areCookiesDisabled) {
+      case 'true':
+        return false
+      case 'false':
+        return true
+      default:
+        return false
+    }
+  },
+  router
+})
+
 Vue.config.productionTip = false
 
 new Vue({
