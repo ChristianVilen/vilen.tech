@@ -1,0 +1,22 @@
+:root {
+	--yellow: #FFEA46;
+	--blue: #46BFFF;
+	--red: #d24b4b;
+	--dark: #878686
+}
+
+.yellow {
+	--bg: var(--yellow)
+}
+
+.blue {
+	--bg: var(--blue)
+}
+
+.red {
+	--bg: var(--red)
+}
+
+.dark {
+	--bg: var(--dark)
+}
