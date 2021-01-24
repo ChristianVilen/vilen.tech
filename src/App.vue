@@ -32,6 +32,7 @@ body, html {
 	position: absolute;
 	top: 40px;
 	right: 40px;
+	font-size: 0.7rem;
 }
 
 @media screen and (max-width: 678px) {

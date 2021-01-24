@@ -4,7 +4,7 @@
 			<b-nav-item to="/">Christian</b-nav-item>
 			<b-nav-item to="Resume">Resume</b-nav-item>
 			<b-nav-item to="Portfolio">Portfolio</b-nav-item>
-			<b-nav-item to="About">About</b-nav-item>
+			<b-nav-item to="Contact">Contact</b-nav-item>
 		</b-navbar-nav>
 	</b-navbar>
 </template>

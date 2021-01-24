@@ -1,7 +1,7 @@
 <template>
 	<div class="home">
 		<b-row class="content">
-			<b-col class="about-me">
+			<b-col cols="12" sm="6" class="about-me">
 				<h4 class="title">Software Development & Digital Marketing</h4>
 				<p class="body-text">➜ I'm a highly motivated <b>software developer</b> who is getting his footing the industry.<br><br>
 					➜ With my experience in many different projects and a <b>diverse</b> job description, I am able to
@@ -17,25 +17,18 @@
 					motorsports 🏎 🏁.
 				</p>
 			</b-col>
-			<b-col>
-				<b-row>
-					<b-col>
-						<img src="../assets/IMG_1863.jpg" alt="profile pic" class="pic">
-					</b-col>
-				</b-row>
-				<b-row>
-					<b-col class="list">
-						<ul>
-							Christian Vilen
-						</ul>
-						<ul>
+			<b-col cols="12" sm="6">
+				<b-card style="max-width: 540px; background: none; border: none;">
+					<img src="../assets/IMG_1863.jpg" alt="profile" class="pic">
+					<b-card-body title="Christian Vilen">
+						<b-card-text>
 							📍 Vantaa, Finland
-						</ul>
-						<ul>
+						</b-card-text>
+						<b-card-text>
 							🗣 Finnish, English, Russian
-						</ul>
-					</b-col>
-				</b-row>
+						</b-card-text>
+					</b-card-body>
+				</b-card>
 			</b-col>
 		</b-row>
 	</div>
@@ -52,9 +45,6 @@ export default {
 <style scoped>
 .content {
 	padding: 50px;
-}
-
-.about-me {
 }
 
 .pic {
