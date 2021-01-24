@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import FourOFour from "../views/FourOFour";
 
 Vue.use(VueRouter)
 
@@ -24,7 +25,12 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
-  }
+  },
+    {
+    path: '*',
+    name: 'FourOFour',
+    component: FourOFour
+  },
 ]
 
 const router = new VueRouter({
