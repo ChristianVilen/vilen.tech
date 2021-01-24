@@ -44,9 +44,17 @@ body, html {
 	font-size: 0.7rem;
 }
 
+.header-img {
+	margin-top: 10rem;
+}
+
 @media screen and (max-width: 678px) {
 	.header {
 		margin-bottom: 0;
+	}
+
+	.header-img {
+		margin-top: 5rem;
 	}
 }
 </style>

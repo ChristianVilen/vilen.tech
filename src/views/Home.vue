@@ -11,7 +11,7 @@
 						cloud technologies, or digital marketing.</b> <br><br>
 					➜ New challenges attract me and lead to my personal professional growth. I am able to work well
 					both in <b>agile</b>
-					team environment and <b>independent</b>ly. <br><br>
+					team environment and <b>independently</b>. <br><br>
 					➜ On my free time I enjoy traveling ✈️ and a diversity of sports, such as <br> skiing ⛷️, mountain
 					biking, jogging 🏃‍♂️, gym️, frisbee golf and
 					motorsports 🏎 🏁.
