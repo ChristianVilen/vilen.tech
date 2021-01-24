@@ -1,24 +1,8 @@
-# vilen.tech-v2
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# vilen.tech
+### https://vilen.tech
+## Personal Portfolio Website
+* Built with Vue and Bootstrap
+* Utilizes
+  * Github API
+  * Sweetalert
+  * Formspree
