@@ -1,7 +1,7 @@
 <template>
 	<b-navbar class="justify-content-center">
 		<b-navbar-nav @click="changeTheme">
-			<b-nav-item to="/">Christian</b-nav-item>
+			<b-nav-item to="/">About me</b-nav-item>
 			<b-nav-item to="Resume">Resume</b-nav-item>
 			<b-nav-item to="Portfolio">Portfolio</b-nav-item>
 			<b-nav-item to="Contact">Contact</b-nav-item>

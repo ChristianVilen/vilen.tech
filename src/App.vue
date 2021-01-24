@@ -1,9 +1,13 @@
 <template>
 	<b-container id="app">
 		<b-button variant="dark" class="color-btn" @click="changeTheme">Random color</b-button>
-		<b-img src="./assets/header-img.svg" height="200" width="200" alt="Header image" class="header-img"></b-img>
+		<b-img src="./assets/header-img.svg" height="200" width="200" alt="Header image" style="margin-top: 10rem"></b-img>
+
 		<Header class="header"/>
+
 		<router-view/>
+
+		<Footer id="footer"/>
 	</b-container>
 </template>
 
@@ -26,6 +30,11 @@ body, html {
 
 .header {
 	margin-bottom: 2rem;
+}
+
+#footer {
+	position: absolute;
+  bottom: 0;
 }
 
 .color-btn {
@@ -52,9 +61,10 @@ body, html {
 
 <script>
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default {
-	components: {Header},
+	components: {Footer, Header},
 	mounted() {
 		const body = document.body
 		const theme = localStorage.getItem('theme')
