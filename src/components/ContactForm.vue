@@ -4,6 +4,7 @@
 			<b-col>
 				<b-form
 						@submit.prevent="onSubmit"
+						@reset="onReset"
 				>
 					<b-form-group
 							id="input-group-1"
@@ -69,9 +70,21 @@ export default {
 			axios.post('https://formspree.io/f/mknpyqar', this.form)
 					.then(() => {
 						//sweet alert success msg
+						this.$swal.fire({
+							title: 'Contact form sent!',
+							icon: 'success',
+							confirmButtonText: 'ok!'
+						}).then(() =>	this.onReset()
+						)
 					})
 					.catch(() => this.fail = true)
-		}
+		},
+		onReset() {
+        // Reset our form values
+        this.form.email = ''
+        this.form.name = ''
+        this.form.message = ''
+      }
 	}
 }
 </script>
