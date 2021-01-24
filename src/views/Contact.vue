@@ -1,5 +1,5 @@
 <template>
-	<b-container>
+	<b-container class="cont">
 		<b-row class="mb-4 pt-2">
 			<b-col>
 				<a href="https://www.linkedin.com/in/christianvilen/" target="_blank"
@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style scoped>
+.cont {
+	height: 80vh
+}
 .linkedin-logo {
 	width: 8rem;
 	height: auto;

@@ -1,7 +1,7 @@
 <template>
 	<b-container id="app">
 		<b-button variant="dark" class="color-btn" @click="changeTheme">Random color</b-button>
-		<b-img src="./assets/header-img.svg" height="200" width="200" alt="Header image" style="margin-top: 10rem"></b-img>
+		<b-img src="./assets/header-img.svg" height="200" width="200" alt="Header image" class="header-img"></b-img>
 		<Header class="header"/>
 		<router-view/>
 	</b-container>
@@ -35,9 +35,17 @@ body, html {
 	font-size: 0.7rem;
 }
 
+.header-img {
+	margin-top: 10rem;
+}
+
 @media screen and (max-width: 678px) {
 	.header {
 		margin-bottom: 0;
+	}
+
+	.header-img {
+		margin-top: 5rem;
 	}
 }
 </style>
