@@ -2,11 +2,18 @@
 	<main>
 		<b-row>
 			<b-col cols="6" sm="4" v-for="(project, i) in projects" :key="i">
-				<b-card class="mb-4 shadow card" :title="project.name" :sub-title="project.language">
+				<b-card class="mb-4 shadow card">
+					<b-card-title class="card-title" v-text="project.name"></b-card-title>
+					<b-card-sub-title v-text="project.language"></b-card-sub-title>
 					<b-card-text class="body-text" v-text="project.description"></b-card-text>
 					<b-row>
-						<b-col v-if="project.url">
-							<b-link target="_blank" class="body-text" :href="project.html_url">View</b-link>
+						<b-col>
+							<b-link
+									class="body-text"
+									v-b-tooltip.hover.bottom
+									title="Opens to Github.com"
+									target="_blank"
+									:href="project.html_url">View</b-link>
 						</b-col>
 					</b-row>
 				</b-card>
@@ -51,6 +58,12 @@ export default {
 </script>
 
 <style scoped>
+.card-title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .octocat-img {
 	width: 200px;
 	height: auto;
