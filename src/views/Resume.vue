@@ -1,10 +1,11 @@
 <template>
-	<div>
+	<main>
 		<b-tabs pills card align="center" v-model="tabIndex">
+
 			<b-tab active :title-link-class="linkClass(0)">
 				<template #title>Work Experience</template>
 				<div class="card-holder" v-for="(exp, eIndex) in exps" :key="eIndex">
-					<b-card :title="exp.title" :sub-title="exp.employer">
+					<b-card class="p-3 mb-4 shadow" :title="exp.title" :sub-title="exp.employer">
 						<b-card-text>{{ exp.time }}</b-card-text>
 						<b-card-text>{{ exp.desc }}</b-card-text>
 					</b-card>
@@ -14,7 +15,7 @@
 			<b-tab class="tab" :title-link-class="linkClass(1)">
 				<template #title>Education</template>
 				<div class="card-holder" v-for="(edu, eduIndex) in educations" :key="eduIndex">
-					<b-card :title="edu.degree" :sub-title="edu.program">
+					<b-card class="p-3 mb-4 shadow" :title="edu.degree" :sub-title="edu.program">
 						<b-card-text>{{ edu.school }}</b-card-text>
 						<b-card-text>{{ edu.time }}</b-card-text>
 					</b-card>
@@ -24,13 +25,13 @@
 			<b-tab class="tab" :title-link-class="linkClass(2)">
 				<template #title>Certifications</template>
 				<div class="card-holder" v-for="(cert, cIndex) in certs" :key="cIndex">
-					<b-card :title="cert.title" :sub-title="cert.issuer">
+					<b-card class="p-3 mb-4 shadow" :title="cert.title" :sub-title="cert.issuer">
 						<b-card-text>{{ cert.issued }}</b-card-text>
 					</b-card>
 				</div>
 			</b-tab>
 		</b-tabs>
-	</div>
+	</main>
 </template>
 
 <script>
@@ -44,13 +45,13 @@ export default {
 					title: 'Software Developer',
 					time: 'Mar 2020 - Present',
 					employer: 'PHZ Full Stack Oy',
-					desc: 'Full stack consultant. Software development and design in several software projects.'
+					desc: 'Software development and design in several software projects in house and for customers of PHZ.'
 				},
 				{
-					title: 'Software Developer',
+					title: 'Software Developer Intern',
 					time: 'Jan 2020 - Mar 2020',
 					employer: 'PHZ Full Stack Oy',
-					desc: 'Internship'
+					desc: 'Marketing and software development in several in house projects.'
 				},
 				{
 					title: 'Delivery Driver / COO',

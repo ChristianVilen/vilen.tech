@@ -62,39 +62,4 @@ export default {
 	width: 60%;
 	border-radius: 30%;
 }
-
-.list {
-	padding: 10px;
-	font-size: 1.3vw;
-	margin-left: 40px;
-}
-
-.list ul {
-	text-align: left;
-	margin: 0;
-}
-
-.title {
-	font-size: 1.5vw;
-}
-
-.body-text {
-	margin-top: 20px;
-	font-size: 1.3vw;
-}
-
-@media screen and (max-width: 678px) {
-	.title {
-		font-size: 6vw;
-	}
-
-	.body-text {
-		font-size: 4vw;
-		margin-bottom: 45px;
-	}
-
-	.list {
-		font-size: 3vw;
-	}
-}
 </style>

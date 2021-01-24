@@ -9,6 +9,7 @@
 
 <style>
 @import "assets/css/colors.css";
+@import "assets/css/global.css";
 
 #app {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,7 +25,7 @@ body, html {
 }
 
 .header {
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 .color-btn {

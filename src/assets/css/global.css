@@ -1,0 +1,49 @@
+.list {
+	padding: 10px;
+	font-size: 1.3vw;
+	margin-left: 40px;
+}
+
+.list ul {
+	text-align: left;
+	margin: 0;
+}
+
+.card {
+	max-height: 15rem;
+}
+
+.title {
+	font-size: 1.5vw;
+}
+
+.body-text {
+	margin-top: 20px;
+	font-size: 1vw;
+}
+
+@media screen and (max-width: 1200px) {
+	.body-text, .list {
+		font-size: 1.3vw;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	.body-text, .list {
+		font-size: 0.7vw;
+	}
+}
+
+@media screen and (max-width: 678px) {
+	.title {
+		font-size: 2vw;
+	}
+
+	.body-text {
+		font-size: 3vw;
+	}
+
+	.list {
+		font-size: 3vw;
+	}
+}
