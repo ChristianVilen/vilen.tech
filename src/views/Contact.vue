@@ -1,5 +1,5 @@
 <template>
-	<b-container>
+	<b-container style="height: 100vh">
 		<b-row>
 			<b-col>
 				<p>Find me on:</p>

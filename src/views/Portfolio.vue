@@ -19,12 +19,12 @@
 				</b-card>
 			</b-col>
 		</b-row>
-		<b-row class="mt-2 mb-2">
+		<b-row class="mt-2 mb-2" v-if="projects.length > 0">
 			<b-col>
 				<b-link href="https://github.com/ChristianVilen">/ChristianVilen</b-link>
 			</b-col>
 		</b-row>
-		<b-row>
+		<b-row v-if="projects.length > 0">
 			<b-col>
 				<img class="octocat-img" src="../assets/Octocat.png" alt="Github Octocat">
 			</b-col>

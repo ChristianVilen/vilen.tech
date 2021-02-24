@@ -1,6 +1,6 @@
 <template>
-	<footer>
-		<p v-text="'©️ Christian Vilen' + ' ' + year "></p>
+	<footer align="right">
+		<p>©️ Christian Vilen {{year}}</p>
 	</footer>
 </template>
 
