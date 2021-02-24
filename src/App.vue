@@ -4,7 +4,7 @@
       <b-col>
         <b-button variant="dark" class="color-btn" @click="changeTheme">Random color</b-button>
         <b-img class="header-img" src="./assets/header-img.svg" height="200" width="200" alt="Header image"
-               ></b-img>
+        ></b-img>
       </b-col>
     </b-row>
 

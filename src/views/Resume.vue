@@ -45,8 +45,8 @@
           </b-col>
           <b-col>
             <a href="http://urn.fi/URN:NBN:fi:amk-2020121729076" target="_blank" rel="noreferrer noopener">
-            Open in Theseus 👉
-          </a>
+              Open in Theseus 👉
+            </a>
           </b-col>
         </b-row>
         <b-row>
@@ -56,16 +56,20 @@
               PHZ Full Stack Oy is an IT-consulting organization, which has ongoing recruits for projects. PHZ Full
               Stack uses multiple different digital channels for recruitment. The objective of the thesis is to <b>optimize
               the recruitment marketing</b>, in order to get the most applications. <br><br>
-              To help PHZ Full Stack Oy to reach its goals, the company has a need to <b>measure and keep track</b> of the
-              recruitment marketing results, <b>optimize budgets and assess’ strategies</b>. As there are many factors and
+              To help PHZ Full Stack Oy to reach its goals, the company has a need to <b>measure and keep track</b> of
+              the
+              recruitment marketing results, <b>optimize budgets and assess’ strategies</b>. As there are many factors
+              and
               channels in recruitment marketing it has begun to be a problem to keep track of them all. The objective of
               this thesis project was to maximize the number of job application that PHZ receives from its recruitment
               marketing efforts and allocated budget. <br><br>
               Recruitment marketing advertisements can be optimized with performance marketing, segmentation and
               targeting. For the controlling and optimizing budgets of different recruitment marketing platforms the
-              project introduced the <b>Linear Programming</b> method, which will help to measure and budget the results of
+              project introduced the <b>Linear Programming</b> method, which will help to measure and budget the results
+              of
               recruitment marketing through a mathematical model. <br><br>
-              In the research I created a prototype of a <b>marketing tool</b>, <b>which automates the budgeting</b> of new
+              In the research I created a prototype of a <b>marketing tool</b>, <b>which automates the budgeting</b> of
+              new
               advertisement campaigns. Historical data and the theoretical background in this thesis were used to
               develop the prototype. The prototype was tested with a 3-month period where the prototype tries to predict
               next months results, by optimizing the budgets based on the unit costs of the applications from multiple
