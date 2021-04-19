@@ -19,7 +19,7 @@
       </b-col>
       <b-col cols="12" sm="6">
         <b-card style="max-width: 540px; background: none; border: none;">
-          <img src="../assets/IMG_1863.jpg" alt="profile" class="pic">
+          <img src="../assets/profile_picture.jpg" alt="profile" class="pic">
           <b-card-body title="Christian Vilen">
             <b-card-text>
               📍 Vantaa, Finland
